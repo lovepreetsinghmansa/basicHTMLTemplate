@@ -1,1 +1,6 @@
-console.log("Connected JS");
+
+window.addEventListener("DOMContentLoaded", DOMReady);
+
+function DOMReady() {
+   console.log("Connected JS");
+}
